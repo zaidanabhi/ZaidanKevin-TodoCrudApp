@@ -2,6 +2,7 @@
 <template>
   <div>
     <h1>Todo App</h1>
+    <h2>Made by Zaidan and Kevin</h2>
     <div class="add-todo-container">
       <input v-model="newTodo" @keyup.enter="addTodo" placeholder="Add a new todo" class="new-todo-input" />
       <button @click="addTodo" class="create-button">Create</button>
